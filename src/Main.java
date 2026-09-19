@@ -15,8 +15,16 @@ public class Main {
         double doubleDifference = 1.22;
         double doubleQuotient = 5.55;
         intSum = intOperandA + intOperandB;
-        System.out.println("The sum which uses ints of + intOperandA = " + intOperandA + " and intOperandB = " + intOperandB + " is " + intSum);
-
+        System.out.println("The sum using ints of " + intOperandA +  " and "  + intOperandB + " is " + intSum);
+        intProduct = intOperandA * intOperandB;
+        System.out.println("The product using ints of " + intOperandA + " and " + intOperandB + " is " + intProduct);
+        intDifference = intOperandA - intOperandB;
+        System.out.println("The difference using ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
+        intQuotient = intOperandA / intOperandB;
+        System.out.println("The quotient using ints of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
+        intModulo = intOperandA % intOperandB;
+        System.out.println("The modulo using ints of " + intOperandA + " and " + intOperandB + " is " + intModulo);
+        
 
 
     }
